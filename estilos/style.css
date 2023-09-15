@@ -12,12 +12,10 @@ Lilás: #5f2c82
 }
 body{
     background-color:#5f2c82;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 main{
+    display: block;
     width: 280px;
     border-radius: 20px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.479);
@@ -28,12 +26,12 @@ main{
 }
 
 #imagem{
-display: block;
 height: 250px;
-border-radius: 20px 20px 0px 0px;
+width: 100%;
 background: url(../imagens/pexels-scott-webb-139198.jpg);
 background-size: cover;
 background-position: bottom left;
+border-radius: 20px 20px 0px 0px;
 }
 
 h1{
@@ -46,12 +44,9 @@ p{
 }
 
 #formulario{
-    display: block;
     padding: 10px;
-    height: 320px;
     background-color: white;
     border-radius: 0px 0px 20px 20px;
-    gap: 10px;
 }
 
 .text{
@@ -107,6 +102,7 @@ p{
 .esenha:hover{
     background-color: #60ceca;
 }
+
 input{
     border: none;
 }
