@@ -17,21 +17,23 @@ body{
     align-items: center;
 }
 
-section{
+main{
     width: 280px;
     border-radius: 20px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.479);
-    position: relative;
-    margin-top: 10%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #imagem{
+display: block;
 height: 250px;
-background-color: black;
-background: url(../imagens/pexels-scott-webb-139198.jpg);
-background-position: bottom left;
-background-size: cover;
 border-radius: 20px 20px 0px 0px;
+background: url(../imagens/pexels-scott-webb-139198.jpg);
+background-size: cover;
+background-position: bottom left;
 }
 
 h1{
@@ -44,6 +46,7 @@ p{
 }
 
 #formulario{
+    display: block;
     padding: 10px;
     height: 320px;
     background-color: white;
@@ -63,10 +66,18 @@ p{
 
 #isenha, #imail{
     margin: auto;
-    width: 200px;
+    width: 75%;
     height: 30px;
     border-radius: 10px;
     background-color: #94CFCD;
+}
+
+#imail:focus{
+    background-color: white;
+}
+
+#isenha:focus{
+    background-color: white;
 }
 
 .entrar, .esenha{
@@ -84,11 +95,18 @@ p{
 
 .esenha{
     background-color: white;
-    color: #49a09d;
+    color: #377976;
     border: 1px solid #49a09d;
     font-size: 1em;
 }
 
+.entrar:hover{
+    background-color: #245250;
+}
+
+.esenha:hover{
+    background-color: #60ceca;
+}
 input{
     border: none;
 }
