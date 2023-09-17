@@ -1,0 +1,62 @@
+:root {
+    --cor1: #5f2c82;
+    --cor2: #49a09d;
+    --cor3: #69e2de;
+    --cor4: #214948;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) { /*tablet*/
+    
+    body{
+        background: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    #container{
+        height: 45%;
+        width: 70%;
+    }
+
+    #imagem{
+        float: left;
+        height: 100%;
+        width: 30%;
+        border-radius: 20px 0px 0px 20px;
+    }
+    
+    #formulario{
+        float: right;
+        height: 100%;
+        width: 70%;
+        border-radius: 0px 20px 20px 0px;
+    }
+}
+
+
+
+@media screen and (min-width: 1025px) { /*pc*/
+    
+    body{
+        background: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    
+    #container{
+        height: 40%;
+        width: 70%;
+        max-width: 750px;
+    }
+
+    #imagem{
+        float: right;
+        height: 100%;
+        width: 50%;
+        border-radius: 0px 20px 20px 0px;
+    }
+    
+    #formulario{
+        float: left;
+        height: 100%;
+        width: 50%;
+        border-radius: 20px 0px 0px 20px;
+    }
+    
+}
