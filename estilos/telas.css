@@ -12,19 +12,20 @@
     }
 
     #container{
+        height: 50%;
         width: 70%;
     }
 
     #imagem{
         float: left;
-        height: 450px;
+        height: 100%;
         width: 30%;
         border-radius: 20px 0px 0px 20px;
     }
     
     #formulario{
         float: right;
-        height: 450px;
+        height: 100%;
         width: 70%;
         border-radius: 0px 20px 20px 0px;
     }
@@ -39,20 +40,21 @@
     }
     
     #container{
+        height: 60%;
         width: 70%;
         max-width: 750px;
     }
 
     #imagem{
         float: right;
-        height: 450px;
+        height: 100%;
         width: 50%;
         border-radius: 0px 20px 20px 0px;
     }
     
     #formulario{
         float: left;
-        height: 450px;
+        height: 100%;
         width: 50%;
         border-radius: 20px 0px 0px 20px;
     }
